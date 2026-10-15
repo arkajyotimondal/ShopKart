@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (SECRETS!)
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Viva prep files (personal notes, not project code)
+viva_prep_*.md
+viva_prep_*.pdf
+
+# Logs
+*.log
+npm-debug.log*
